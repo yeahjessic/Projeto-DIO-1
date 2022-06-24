@@ -151,7 +151,47 @@ body {
 .app:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
 }
-/*sessão FOOTER*/
+/*MEDIA QUERY*/
+
+ 
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .image-phone {
+        display: none;
+    }
+
+    .login-instagram {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+       
+    }
+    .new-account{
+        border: 1px solid transparent;
+    }
+    .enter1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .profile-photo{
+        margin-top: 20px;
+    }
+}
 
 
 
