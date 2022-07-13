@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+}
+
+html, body{
+    height: 100vh;
+    font-family:'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a ul li{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+     /*sessão HEADER*/
+    header{
+        background-color: #031652;
+        color: aliceblue;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .menu-list{
+        display: flex;
+        margin-right: 100px;
+       
+    }
+header .flex-titulo{
+    margin-left: 100px;
+}
+header ul li a {
+    color: aliceblue;
+    width: 100%;
+    max-width: 260px;
+    margin:20px;
+    text-decoration: none;
+}
+/*PRESENTATION*/
+.initial{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width:100%;
+    align-content: center;
+}
+.presentation-text{
+    text-align: left;
+    color: #21aee4;
+    font-size: 14px;
+    min-height: 200px;
+    margin-top: 220px;
+}
+.h1-text{
+    color:#031652;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.presentation-text a{
+    color: aliceblue;
+    background-color: #031652;
+    width: 220px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    height: 50px;
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.presentation-text a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+   }
+.image-presentation1
+ img{
+        margin-left: 100px;
+        border-radius: 20px;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        align-items: center;
+        margin-top: 60px;
+       width: 750px;
+    }
+
+/*sessão quem somos*/
+.container-quemsomos{
+        display: flex;
+        max-width: 992px;
+        margin: auto;
+        width:100%;
+        align-content: space-between;
+}
+.presentation-quemsomos{
+    text-align: left;
+    color: #031652;
+    font-size: 14px;
+    min-height: 200px;
+
+}
+.presentation-quemsomos h2{
+    color: #031652;
+    font-size: 24px;
+    align-items: left;
+    width: 220px;
+}
+.presentation-quemsomos p{
+   
+}
+.image-presentation2 img{
+   margin-right: 100px;
+    border-radius: 20px;
+    align-items: left;
+    margin-top: 250px;
+    width: 650px;
+
+}
+
+
+
+
+
+
+
+    
